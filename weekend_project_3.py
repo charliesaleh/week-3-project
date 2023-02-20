@@ -83,8 +83,6 @@ property.add_expense(1610)
 property.add_income(2291)
 property.add_expense(1200)
 
-
-
 print("Total monthly income: $", property.total_monthly_income())
 print("Total monthly expenses: $", property.total_monthly_expenses())
 print("Total monthly cash flow: $", property.monthly_cash_flow())
