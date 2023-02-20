@@ -30,7 +30,7 @@ class LinkedList():
 class RentalProperty():
     def __init__(self, rental_income, laundry, storage, misc_income, tax, insurance, utilities, 
                  hoa, lawn_snow, vacancy, repairs, c, property_mortage,
-                 mortgage, down_payment, closing_costs, rehab_budget, misc_other):
+                 mortgage, cash_flow_income, cash_flow_expenses, down_payment, closing_costs, rehab_budget, misc_other):
         self.income = LinkedList()
         self.expenses = LinkedList()
         self.cash_flow = LinkedList()
